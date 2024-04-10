@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Rubik+Mono+One&display=swap"rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>JavaScript Quiz</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>JavaScript Quiz</h1>
+    </div>
+    <div class="container">
+      <div id="start"><button id="start-quiz">Start Quiz</button></div>
+      <div class="quiz-container" id="quiz-container">
+        <div id="quiz"></div>
+        <button id="next" class="btn-next" disabled style="display: none">
+          Next Question
+        </button>
+        <div id="results"></div>
+        <button id="restart" style="display: none">Restart Quiz</button>
+      </div>
+    </div>
+    <script src="quiz.js"></script>
+  </body>
+</html>
