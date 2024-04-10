@@ -34,6 +34,10 @@ h1 {
 
 .answers label {
   width: 40vw;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 #start-quiz {
@@ -47,6 +51,10 @@ h1 {
   text-align: center;
   font-size: 40px;
   cursor: pointer;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
 
 #start-quiz:hover {
@@ -61,8 +69,11 @@ h1 {
   border: none;
   text-align: center;
   font-size: 24px;
-  font-weight: 600;
   cursor: not-allowed;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 .btn-next.enabled {
   background-color: transparent;
@@ -70,8 +81,11 @@ h1 {
   border: none;
   text-align: center;
   font-size: 24px;
-  font-weight: 600;
   cursor: pointer;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 #quiz label:hover {
@@ -84,12 +98,15 @@ h1 {
   background-color: #6c0bb8;
   padding-left: 24px;
   padding-right: 24px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 28px;
+  padding-bottom: 28px;
   border: none;
   text-align: center;
   font-size: 24px;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 600;
+  font-style: normal;
   cursor: pointer;
 }
 
@@ -109,4 +126,11 @@ h1 {
   font-weight: 400;
   font-style: normal;
   line-height: 1.6;
+}
+
+.question {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
